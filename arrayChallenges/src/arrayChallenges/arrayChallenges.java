@@ -3,8 +3,10 @@ package arrayChallenges;
 public class arrayChallenges {
 
 	public static void main(String[] args) {
-			//challengeOne();
+			challengeOne();
 			challengeTwo();
+			challengeThree();
+			challengeFour();
 			}
 
 			public static void  challengeOne(){
@@ -25,8 +27,31 @@ public class arrayChallenges {
 				highschoolAges[2] = 17;
 				highschoolAges[3] = 18;
 				
-					System.out.println(highschoolAges.length - 1);
+					System.out.println(highschoolAges[highschoolAges.length - 1]);
 					
 				
 			}
-	}
+			public static void challengeThree(){
+				int [] numbers = {1, 4, 5, 2, 6};
+				for (int i = 0; i < numbers.length; i++)
+				{
+					System.out.println(numbers[i]);
+				}
+				
+			}
+
+			public static void challengeFour(){
+			
+				
+				int [] numbers = {1, 4, 5, 3, 6};
+				double sum = 0;
+				
+				for (int i = 0; i < numbers.length; i++)
+				{
+					sum = sum + numbers[i];
+			
+				}
+				sum = sum / numbers.length;
+				System.out.println(sum);
+			}
+}
