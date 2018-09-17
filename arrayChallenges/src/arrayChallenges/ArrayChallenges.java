@@ -1,6 +1,6 @@
 package arrayChallenges;
 
-public class arrayChallenges {
+public class ArrayChallenges {
 
 	public static void main(String[] args) {
 			challengeOne();
